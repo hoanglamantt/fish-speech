@@ -132,7 +132,6 @@ if __name__ == "__main__":
     args = parse_args()
 
     idstr: str | None = args.reference_id
-    # priority: ref_id > [{text, audio},...]
     if idstr is None:
         ref_audios = args.reference_audio
         ref_texts = args.reference_text
